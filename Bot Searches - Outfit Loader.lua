@@ -20,6 +20,3 @@ if getgenv().spamSearch == true then
         wait(2)
     end 
 end
-
-
-
