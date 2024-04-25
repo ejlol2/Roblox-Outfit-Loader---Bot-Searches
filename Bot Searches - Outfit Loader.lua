@@ -1,5 +1,5 @@
-local playerID = 97619790
-getgenv().spamSearch = true
+local playerID =  -- user id of player you want to bot the searches of
+getgenv().spamSearch = true -- change to false to disable the search bot
 
 if getgenv().spamSearch == false then
         while wait() do
