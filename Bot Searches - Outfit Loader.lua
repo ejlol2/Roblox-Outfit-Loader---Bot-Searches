@@ -1,10 +1,9 @@
-local playerID =  -- user id of player you want to bot the searches of
-getgenv().spamSearch = true -- change to false to disable the search bot
+local playerID =  -- id of the user you want to bot searches for
+getgenv().spamSearch = true -- change to false to disable search bot
 
 if getgenv().spamSearch == false then
         while wait() do
             print(playerID, "is no longer being searched.")
-        wait(2)
     end 
 end
 
@@ -17,6 +16,5 @@ if getgenv().spamSearch == true then
                 "\160\128\226\160\128\226\160\128\226\160\128\226\160\128\226\160\128\226\160\128\226\160\128" ..
                 "\226\160\128\226\160\128"):FireServer(unpack(args))
             print(playerID, "is being searched.")
-        wait(2)
     end 
 end
